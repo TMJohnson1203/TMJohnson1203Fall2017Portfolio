@@ -27,7 +27,11 @@
 
 
     <!-- Main Style -->
-    <link href="_include/css/main.css" rel="stylesheet">
+    <!--<link href="_include/css/main.css" rel="stylesheet">-->
+
+    <link href="_include/css/main.css" rel="stylesheet" />
+
+    <!--<link href="_include/css/originalmain.css" rel="stylesheet" />-->
 
     <!-- FancyBox -->
     <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
@@ -84,17 +88,22 @@
         </section>
     </div>
     <!-- End of Splash Screen -->
+
     <!-- Homepage Slider -->
     <div id="home-slider">
-        <div class="overlay"></div>
+        <!--<div class="overlay"></div>
+
 
         <div class="slider-text">
 
-            <div class="slide-content">TMJ</div>
+            <div class="slide-content"></div>
 
-            <div id="slidecaption">TMJ</div>
+            <div id="slidecaption">
+            <div class="slide-content"></div>
+            </div>
 
-        </div>
+        </div>-->
+
 
         <div class="control-nav">
             <a id="prevslide" class="load-item" style="display: inline-block; opacity: 1;"><i class="font-icon-arrow-simple-left"></i></a>
@@ -256,7 +265,7 @@
                     <ul id="filters" class="option-set" data-option-key="filter">
                         <li class="type-work">PORTFOLIO</li>
                         <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".c">C#</a></li>
+                        <li><a href="#filter" data-option-value=".C#">C#</a></li>
                         <li><a href="#filter" data-option-value=".html">HTML/CSS</a></li>
                         <li><a href="#filter" data-option-value=".mvc">MVC Code First App</a></li>
                         <li><a href="#filter" data-option-value=".sql">SQL/MVC Database First App</a></li>
@@ -264,6 +273,7 @@
                         <!--<li><a href="#filter" data-option-value=".video">More to Come...</a></li>-->
                     </ul>
                 </nav>
+
                 <!-- End Filter -->
             </div>
 
@@ -277,20 +287,21 @@
                             <li class="item-thumbs span3 design">
 
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MVC Code First App" href="_include/img/work/full/ReviewMVCReviewPage.PNG" />
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MVC Code First App" href="_include/img/work/full/ReviewMVCReviewPage.PNG"/>
+                              
                                 <span class="overlay-img"> <img src="_include/img/transitions/portfoliotrans/sized sepia Insideofwatch.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                </a
 
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbReviewMVCReviewPage.png" />
-                            </li>
 
-                            <li class="item-thumbs span3 design">
+                               
+                            <li class="item-thumbs span3 design" >
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="C#" href="_include/img/work/full/FortuneTellerMVCCreateView.PNG" />
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" data-option-value=".C#" title="C#" href="_include/img/work/full/FortuneTellerMVCCreateView.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized biz card sepia pocket_watch_by_adszew.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbFortuneTellerMVCCreateView.png" />
@@ -301,7 +312,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SQL/MVC Database First App" href="_include/img/work/full/dressesIndexGoVintage.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sizedwatchbackground.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbdressesIndexGoVintage.png" />
@@ -314,18 +325,18 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Capstone Pitch Deck" href="_include/img/work/full/CapstoneAppFeatures.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized sepia watches.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbCapstoneAppFeatures.png" />
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 design">
+                            <li class="item-thumbs span3 C#">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="C#" href="_include/img/work/full/ConsoleFortuneTeller.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized antique-clock.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbConsoleFortuneTeller.png" />
@@ -336,7 +347,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="HTML/CSS" href="_include/img/work/full/TuscanyCSS.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized sepia vintage-keys-vintage-clocks.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbTuscanyCSS.png" />
@@ -350,7 +361,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SQL/MVC Database First App" href="_include/img/work/full/GoVintageHomePage.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized sepia Insideofwatch.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbGoVintageHomePage.png" />
@@ -361,7 +372,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MVC Code First App" href="_include/img/work/full/CodeForReviewMVC.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized biz card sepia pocket_watch_by_adszew.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbCodeForReviewMVC.png" />
@@ -372,7 +383,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Capstone Pitch Deck" href="_include/img/work/full/CapstoneFullSiteView.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sizedwatchbackground.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbCapstoneFullSiteView.png" />
@@ -386,7 +397,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MVC Code First App" href="_include/img/work/full/CodeForReviewMVC.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized sepia watches.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbCodeForReviewMVC.png" />
@@ -397,7 +408,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MVC Code First App" href="_include/img/work/full/ReviewMVCSiteHomeImage.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized antique-clock.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbReviewMVCSiteHomeImage.png" />
@@ -408,7 +419,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="HTML/CSS" href="_include/img/work/full/HTMLTuscanyVIlla.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized sepia vintage-keys-vintage-clocks.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbHTMLTuscanyVIlla.png" />
@@ -421,18 +432,18 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Capstone Pitch Deck" href="_include/img/work/full/CapstoneSiteHeader.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized sepia Insideofwatch.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbCapstoneSiteHeader.png" />
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 design">
+                            <li class="item-thumbs span3 C#">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="C#" href="_include/img/work/full/FortuneTellerCode.PNG" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sized biz card sepia pocket_watch_by_adszew.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbFortuneTellerCode.png" />
@@ -443,7 +454,7 @@
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SQL/MVC Database First App" href="_include/img/work/thumbs/ThumbGoVintageDataBase.png" />
                                 <span class="overlay-img"><img src="_include/img/transitions/portfoliotrans/sizedwatchbackground.jpg" /></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/ThumbGoVintageDataBase.png" />
